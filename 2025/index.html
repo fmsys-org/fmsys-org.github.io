@@ -38,9 +38,9 @@
 
 
         #banner h2 {
-            font-size: 3em;  /* 减小标题大小 */
-            line-height: 1.4;
-            margin-bottom: 0.5em;
+            font-size: 3.5vw;  /* 默认使用视窗宽度的相对单位 */
+            line-height: 1.3;
+            margin-bottom: 1em;
         }
 
 		/* Nav */
@@ -149,6 +149,24 @@
 				.dropotron li:hover > a, .dropotron li:hover > span {
 					color: #fff;
 				}
+
+        /* 移动设备的响应式设置 */
+        @media screen and (max-width: 768px) {
+            #banner h2 {    
+                font-size: 5.5vw;  /* 在移动设备上使用较小的固定像素大小 */
+            }
+            
+            #banner h3 {
+                font-size: 4.5vw;
+            }
+        }
+
+        /* 平板设备的响应式设置 */
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            #banner h2 {
+                font-size: 5.5vw;
+            }
+        }
 
     </style>
 </head>
