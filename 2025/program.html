@@ -35,6 +35,30 @@
             color: #4ab7f9;
         }
 
+        /* Banner styles */
+        #banner h2 {
+            font-size: 3.5vw;  /* 默认使用视窗宽度的相对单位 */
+            line-height: 1.3;
+            margin-bottom: 1em;
+        }
+
+        /* 移动设备的响应式设置 */
+        @media screen and (max-width: 768px) {
+            #banner h2 {
+                font-size: 5.5vw;  /* 在移动设备上使用较大的字体 */
+            }
+
+            #banner h3 {
+                font-size: 4.5vw;
+            }
+        }
+
+        /* 平板设备的响应式设置 */
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            #banner h2 {
+                font-size: 5.5vw;
+            }
+        }
 
 		/* Nav */
 
@@ -151,6 +175,7 @@
         <ul>
             <li class="current" style="white-space: nowrap;"><a href="index.html">Home</a></li>
             <li style="white-space: nowrap;"><a href="program.html#main">Program</a></li>
+            <li style="white-space: nowrap;"><a href="keynote.html#main">Keynote</a></li>
             <li style="white-space: nowrap;"><a href="organization.html#main">Organization</a></li>
         </ul>
     </nav>
@@ -158,11 +183,10 @@
 
         <!-- Banner -->
         <section id="banner">
-            <div class="inner">
-                <h2> International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys)
-                </h2>
+            <div class="inner" style="margin-top: 1vw;">
+                <h2>The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys'25)</h2>
                 <h3>6 May 2025, Irvine, USA</h3>
-                <h3>A full-day workshop co-located with <a href="https://cps-iot-week2025.ics.uci.edu/" target="_blank">CPS-IoT Week 2025</a> </h3>
+                <h3>A full-day workshop co-located with <a href="https://cps-iot-week2025.ics.uci.edu/" target="_blank">CPS-IoT Week 2025</a></h3>
             </div>
         </section>
 
