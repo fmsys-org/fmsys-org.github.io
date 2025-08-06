@@ -115,3 +115,8 @@
 		}
 
 })(jQuery);
+
+$(function() {
+    $("body").append('<div id="footer-container"></div>');
+    $("#footer-container").load("/2025/footer.html");
+});
