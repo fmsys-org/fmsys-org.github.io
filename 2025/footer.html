@@ -1,7 +1,48 @@
+<style>
+    .supported-by-container {
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -10px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .supported-by-container img {
+        height: 80px;
+        width: auto;
+        max-width: 200px;
+        object-fit: contain;
+    }
+
+
+    /* 移动端响应式设计 */
+    @media screen and (max-width: 768px) {
+        .supported-by-container {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .supported-by-container img {
+            height: 60px;
+            max-width: 150px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .supported-by-container img {
+            height: 50px;
+            max-width: 120px;
+        }
+    }
+</style>
+
 <footer id="footer">
     <div class="supported-by-container">
         <img src="images/sigbed.png" alt="SIGBED">
         <img src="images/sigbedchina.png" alt="SIGBED-China">
+        <img src="images/sig_mobile_full.png" alt="SIGMOD">
     </div>
     <hr>
     <span> Interested in joining the FMSys 2025? Register now for the <a href="https://cps-iot-week2025.ics.uci.edu/" >CPS-IoT Week </a>Workshop! Images from <a href="https://unsplash.com/">Unsplash</a>. </span>
