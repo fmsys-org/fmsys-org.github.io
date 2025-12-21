@@ -1,0 +1,237 @@
+/* Mobile Responsive Styles for Header and Footer */
+
+/* Header Container */
+#header-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Mobile Styles - Let main.css handle the sidebar navigation */
+/* The header will be hidden on mobile and navPanel will be used instead */
+
+/* Footer Mobile Styles */
+#footer-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+}
+
+#footer {
+    padding: 2em 1em !important;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: relative;
+    overflow: visible;
+}
+
+#footer hr {
+    margin: 1em 0;
+}
+
+#footer span {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 0.5em;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#footer a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Ensure body and html have proper spacing for footer */
+@media screen and (max-width: 980px) {
+    html {
+        height: auto;
+        min-height: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        min-height: 100vh;
+        height: auto;
+        overflow-x: hidden;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        position: relative;
+    }
+
+    #main, section#main {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        min-height: auto !important;
+        height: auto !important;
+    }
+
+    /* Ensure wrapper doesn't push footer down */
+    .wrapper, section.wrapper, .wrapper.style1 {
+        margin-bottom: 0 !important;
+        padding-bottom: 2em !important;
+        min-height: auto !important;
+        height: auto !important;
+        overflow: visible;
+    }
+
+    /* Ensure main section ends properly before footer */
+    section#main.wrapper {
+        margin-bottom: 0 !important;
+        padding-bottom: 2em !important;
+    }
+
+    .container, #main > .container, #main .container {
+        margin-bottom: 0 !important;
+        padding-bottom: 2em !important;
+    }
+
+    /* Remove last child margin that might push footer */
+    #main > .container > :last-child,
+    #main > .container > :last-child > :last-child {
+        margin-bottom: 0 !important;
+    }
+
+    #footer-container {
+        position: relative !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        width: 100%;
+        clear: both;
+        display: block;
+        z-index: 1;
+    }
+
+    #footer {
+        position: relative !important;
+        bottom: auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    html {
+        height: auto;
+        min-height: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 0 !important;
+    }
+
+    #main, section#main {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .wrapper, section.wrapper {
+        padding-bottom: 1.5em !important;
+        margin-bottom: 0 !important;
+    }
+
+    section#main.wrapper {
+        margin-bottom: 0 !important;
+        padding-bottom: 1.5em !important;
+    }
+
+    .container, #main > .container, #main .container {
+        margin-bottom: 0 !important;
+        padding-bottom: 1.5em !important;
+    }
+
+    #footer-container {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        clear: both;
+    }
+
+    #footer {
+        padding: 1.5em 0.8em 1.5em 0.8em !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #footer hr {
+        margin: 0.8em 0;
+    }
+
+    #footer span {
+        font-size: 0.85em;
+        padding: 0 0.3em;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        height: auto;
+        min-height: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 0 !important;
+    }
+
+    #main, section#main {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .wrapper, section.wrapper {
+        padding-bottom: 1em !important;
+        margin-bottom: 0 !important;
+    }
+
+    section#main.wrapper {
+        margin-bottom: 0 !important;
+        padding-bottom: 1em !important;
+    }
+
+    .container, #main > .container, #main .container {
+        margin-bottom: 0 !important;
+        padding-bottom: 1em !important;
+    }
+
+    #footer-container {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        clear: both;
+    }
+
+    #footer {
+        padding: 1.2em 0.5em 1.2em 0.5em !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #footer hr {
+        margin: 0.7em 0;
+    }
+
+    #footer span {
+        font-size: 0.8em;
+        padding: 0 0.2em;
+        line-height: 1.3;
+    }
+}
+

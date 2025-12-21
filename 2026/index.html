@@ -1,0 +1,493 @@
+<head>
+    <title>FMSys Workshop 2026</title>
+    <meta name="google-site-verification" content="CP81HjWneBXMgB69FAhuh0dnvuYmg9Ert5Iup3vqzq0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/timetable.css" />
+    <link rel="stylesheet" href="assets/css/banner.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <style type="text/css">
+        .FeesTable .title {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .FeesTable .titleTR td {
+            font-weight: bold;
+        }
+
+        .FeesTable .titleTRNext td {
+            vertical-align: middle;
+            font-style: italic;
+        }
+
+        .darkcolor {
+            color: #4ab7f9;
+        }
+
+
+
+
+		/* Nav */
+
+
+		#toptext
+		{
+			padding-left: 285px;
+		}
+
+			#nav {
+				position: relative;
+				display: block;
+				top: -14em;
+				left: 0;
+				width: 100%;
+				text-align: center;
+
+			}
+
+				#nav > ul {
+					display: inline-block;
+					border-radius: 0.3em;
+					box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+					padding: 0 1em 0 1em;
+					background-color:rgb(250 250 250 / 0.90);
+				}
+
+					#nav > ul > li {
+						display: inline-block;
+						text-align: center;
+						padding: 0 1.5em 0 0.5em;
+					}
+
+						#nav > ul > li > ul {
+							display: none;
+
+						}
+
+						#nav > ul > li > a, #nav > ul > li > span {
+							display: block;
+							color: #222;
+							text-transform: uppercase;
+							text-decoration: none;
+							font-size: 1vw;
+                            font-weight: 700;
+							letter-spacing: 0.10em;
+							height: 4em;
+							line-height: 4em;
+							-moz-transition: all .25s ease-in-out;
+							-webkit-transition: all .25s ease-in-out;
+							-o-transition: all .25s ease-in-out;
+							-ms-transition: all .25s ease-in-out;
+							transition: all .25s ease-in-out;
+							outline: 0;
+						}
+
+						#nav > ul > li:hover > a {
+							color: #4da6ff;
+
+						}
+
+						#nav > ul > li.active > a, #nav > ul > li.active > span {
+							color: #FF5733;
+						}
+
+			.dropotron {
+				background: #222835 url("images/overlay.png");
+				background-color: rgba(44, 50, 63, 0.925);
+				padding: 1.25em 1em 1.25em 1em;
+				border-radius: 0.35em;
+				box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+				min-width: 12em;
+				text-align: left;
+				margin-top: -1.25em;
+				margin-left: -1px;
+			}
+
+				.dropotron.level-0 {
+					margin-top: -1px;
+					margin-left: 0;
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+				}
+
+				.dropotron a, .dropotron span {
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+					display: block;
+					color: #eee;
+					color: rgba(255, 255, 255, 0.75);
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 0.7em;
+					letter-spacing: 0.25em;
+					border-top: solid 1px rgba(255, 255, 255, 0.15);
+					line-height: 3em;
+				}
+
+				.dropotron li:first-child a, .dropotron li:first-child span {
+					border-top: 0;
+				}
+
+				.dropotron li:hover > a, .dropotron li:hover > span {
+					color: #fff;
+				}
+
+
+        /* 添加以下CSS样式 */
+        @media screen and (max-width: 768px) {
+            .entry ul {
+                padding-left: 15px; /* 减少左侧padding */
+            }
+
+            .entry ul li {
+                margin-bottom: 10px; /* 增加列表项之间的间距 */
+            }
+
+            .entry ul ul {
+                padding-left: 15px; /* 减少二级列表的缩进 */
+            }
+
+            .box.post {
+                padding: 15px; /* 减少文章容器的内边距 */
+            }
+
+            /* 调整文字大小 */
+            .entry ul li {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
+            /* 强调文本的样式调整 */
+            .entry ul li strong {
+                display: block; /* 让标题单独占一行 */
+                margin-bottom: 5px;
+                font-size: 16px;
+            }
+        }
+
+    </style>
+    <!-- SEO Meta Tags for Google Bots-->
+    <meta name="description" content="FMSys'26 - The 3rd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things." />
+    <meta name="keywords" content="FMSys26, FMSys 2026, Foundation Models, Large Language Models, LLM, MLLM, CPS, IoT, Workshop, Cyber-Physical Systems, Internet of Things, CPS-IoT Week" />
+</head>
+
+<body class="landing is-preload" sytle="margin-top: 0.8vw;">
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Banner Container -->
+    <div id="banner-container"></div>
+
+    <!-- Main -->
+    <section id="main" class="wrapper style1">
+
+
+        <div class="container">
+            <div class="row gtr-150">
+                <div class="col-8 col-12-medium">
+                    <section id="content" style="text-align: justify">
+                        <h3 class="darkcolor">Description</h3>
+
+                        <p> Foundation Models, especially Large Language Models (LLMs) and Large Multimodal Models (LMMs), have revolutionized AI by enabling broad generalization across tasks with minimal adaptation. Most of the work on Foundation Models has taken place in the context of natural language and vision, but the next frontier is bringing Foundation Models into the physical world. Emerging domains such as embodied AI, physical AI, and Cyber-Physical Systems (CPS)/IoT demand models that can reason over sensor-rich environments, interact with dynamic physical systems, and plan actions under real-world constraints. These capabilities are critical for applications like robotics, smart healthcare, autonomous driving, and intelligent infrastructure. Current CPS-IoT solutions rely on supervised pipelines that are hungry for difficult-to-obtain annotated data and brittle to domain shifts caused by deployment time variations and dynamics in the physical environment, hardware platforms, and human subjects. Moreover, CPS-IoT applications often require higher-level spatiotemporal reasoning over sensory data, planning of actions, and meeting real-world regulations, all challenging tasks for task-specific models trained on limited data. Foundation Models offer an opportunity to address these challenges in CPS-IoT via large-scale pooling of abundant but unlabeled sensory data from IoT devices, development of standardized multimodal embeddings for various sensor types, and training on diverse platform-task combinations to create reusable models with good generalization capabilities across tasks and deployments. However, deploying Foundation Models in CPS-IoT introduces unique challenges, including dynamic environments, resource-constrained platforms, real-time requirements, appropriate handling of signal-level heterogeneity such as sampling rates, etc. The FMSys Workshop will explore these challenges and opportunities, aiming to bridge cutting-edge AI research with embodied and physical intelligence in real-world systems.
+                        </p>
+
+                    </section>
+
+                    <section>
+                        <h3 class="darkcolor">News</h3>
+                        <ul>
+                            <li><strong>2025.12.21: </strong> Web site online </li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <style>
+                            .Sponsors img {
+                                max-width: 300px !important;
+                                width: 300px;
+                                margin: 0px 10px;
+                                padding: 0px;
+                                border: 0;
+                                vertical-align: middle;
+                            }
+
+                            .Sponsors a {
+                                border-bottom: none;
+                            }
+                        </style>
+
+                </div>
+
+
+                <div class="col-4 col-12-medium">
+                    <!-- Sidebar -->
+                    <section id="sidebar">
+                        <section>
+                            <!-- <h3 class="darkcolor">Workshop Venue</h3>
+                            <ul>
+                                <li><strong>To be announced</strong></li>
+                            </ul> -->
+                        </section>
+                        <section>
+                            <h3 class="darkcolor">Past Workshop</h3>
+                            <ul>
+                                <li><strong><a href="https://fmsys-org.github.io/2024/index.html" target="_blank">FMSys'24: </a></strong>Hong Kong, May 13, 2024</li>
+                                <li><strong><a href="https://fmsys-org.github.io/2025/index.html" target="_blank">FMSys'25: </a></strong>Irvine, May 6, 2025</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="darkcolor">Important Dates</h3>
+                            <ul>
+                                <li><strong>Paper Registration Deadline: </strong> 22 Feb 2026, 11:59 PM AoE</li>
+                                <li><strong>Paper Submission Deadline: </strong> 1 Mar 2026, 11:59 PM AoE</li>
+                                <li><strong>Notification: </strong> 15 Mar 2026</li>
+                                <li><strong>Camera ready: </strong> 31 Mar 2026, 11:59 PM AoE</li>
+                                <li><strong>Workshop date: </strong> 11 May 2026</li>
+                            </ul>
+                        </section>
+
+
+
+                        <hr />
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <header class="major">
+                <h2 class="darkcolor">Call for Papers</h2>
+            </header>
+
+            <article class="box post" style="text-align: justify; margin-top: -40px; margin-bottom: -20px;">
+                <div class="entry">
+                                    <p sytle="text-align: justify;">Foundation Models, particularly LLMs, have transformed AI research by enabling broad generalization across tasks with minimal adaptation. Trained on massive datasets using self-supervised learning, these models have achieved remarkable success in language and vision. The next frontier is bringing Foundation Models into the physical world. Domains such as embodied AI, physical AI, and Cyber-Physical Systems (CPS)/IoT present unique challenges and opportunities: reasoning over sensor-rich environments, interacting with dynamic physical systems, and planning actions under real-world constraints. These capabilities are essential for applications like robotics, smart healthcare, autonomous driving, and intelligent infrastructure—areas where AI meets the complexity of the physical world. However, the intersection of Foundation Models with CPS/IoT remains largely unexplored. </p>
+
+                        <p> The FMSys Workshop provides a timely platform to explore these challenges and opportunities between AI and CPS-IoT researchers. We invite submissions of ideas and early findings that advance the integration of Foundation Models with embodied, physical intelligence and CPS/IoT, spanning topics such as sensing, systems, applications, trustworthiness, etc. By fostering research and discussions in these domains, FMSys aims to define the research roadmap for intelligent CPS/IoT systems that seamlessly bridge AI and the physical world. </p>
+
+            <header class="major">
+                <h3>Topics of interest include (but are not limited to)</h3>
+            </header>
+            </br>
+            <article class="box post" style="text-align: justify; margin-top: -40px; margin-bottom: -20px;">
+                <div class="entry">
+                    <ul>
+                        <li><strong>Foundation models for CPS/IoT data and systems</strong>
+                            <ul>
+                                <li>Foundation models on sensor data analytics, e.g., acoustic, light, motion, biosignals and RF data</li>
+                                <li>Foundation models for reasoning, planning, and control</li>
+                                <li>Multimodal, time-series and physics-informed foundation models for CPS/IoT</li>
+                                <li>Foundation models in safety-critical systems and applications</li>
+                            </ul>
+                        </li>
+                        <li><strong>Frameworks and paradigms of advancing foundation models in CPS/IoT</strong>
+                            <ul>
+                                <li>Device-only vs. cloud-device collaboration</li>
+                                <li>End-to-end models vs. compound AI systems with multiple FMs (and classical models/algorithms)</li>
+                                <li>Generalized "one-for-all" solutions vs. customized solutions</li>
+                                <li>Other frameworks such as distributed training/inference, continual and lifelong adaptation, etc.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Foundation models in applications</strong>
+                            <ul>
+                                <li>FMs for healthcare, robotics, autonomous vehicles, smart cities, virtual reality, sustainability, etc.</li>
+                                <li>FM/LLM-powered embodied AI systems, AI agents, human-computer interaction, etc.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Datasets, Benchmarks, and Tooling</strong>
+                            <ul>
+                                <li>Benchmark evaluations and surveys of foundation models on sensor data</li>
+                                <li>CPS/IoT datasets for foundation models</li>
+                                <li>Open-source frameworks, toolchains, and APIs for CPS/IoT Foundation Models</li>
+                            </ul>
+                        </li>
+                        <li><strong>Efficiency</strong>
+                            <ul>
+                                <li>Efficient foundation models for CPS/IoT applications</li>
+                                <li>Real-time FM/LLM systems (model compression, resource allocation, hardware-software co-design, streaming, serving) for CPS/IoT applications</li>
+                            </ul>
+                        </li>
+                        <li><strong>Trustworthiness</strong>
+                            <ul>
+                                <li>Fairness, trustworthiness, safety, ethics, robustness, and security of foundation models</li>
+                                <li>Formal verification, assurance, and certification of FMs in CPS</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <section id="submission">
+                        <h3 class="darkcolor">Submission Requirements</h3>
+                        <article class="box post" style="text-align: justify; margin-top: -40px; margin-bottom: -20px;">
+                            <div class="entry">
+                                <style>
+                                    .entry p {
+                                        word-wrap: break-word;
+                                        overflow-wrap: break-word;
+                                        word-break: break-all;
+                                    }
+
+                                    .entry a {
+                                        word-wrap: break-word;
+                                        overflow-wrap: break-word;
+                                        word-break: break-all;
+                                    }
+                                </style>
+                                <!-- <p>Submissions should be original, unpublished research addressing the above topics. Each submission is a single PDF file no longer than six pages (two-column, 10-point, following ACM conference proceedings format (<a href="https://www.acm.org/publications/proceedings-template" target="_blank">https://www.acm.org/publications/proceedings-template</a>), including figures, references, etc. Submissions must include author names and affiliations for single-blind peer reviewing by the technical program committee. Authors must present their papers in person at the workshop. Papers accepted for presentation will be available at the ACM Digital Library.</p> -->
+
+                                <p>Submissions should be original, unpublished research addressing the above topics. Each submission is a single PDF file no longer than six pages (two-column, 10-point, following ACM conference proceedings format (<a href="https://www.acm.org/publications/proceedings-template" target="_blank">https://www.acm.org/publications/proceedings-template</a>), including figures, references, etc. Submissions must include author names and affiliations for single-blind peer reviewing by the technical program committee. Authors must present their papers in person at the workshop.</p>
+                            </div>
+                        </article>
+                        </br>
+                        <h3 class="darkcolor">Submission Site</h3>
+                        <article class="box post" style="text-align: justify; margin-top: -40px; margin-bottom: -20px;">
+                            <div class="entry">
+                                <p>Submission site will be announced soon. If you have any questions regarding the workshop, please contact TPC chairs. (<a href="mailto:ABR@zurich.ibm.com" target="_blank">Abbas Rahimi</a>, <a href="mailto:stephen.xia@northwestern.edu" target="_blank">Stephan Xia</a>, <a href="mailto:xmouyang@cse.ust.hk" target="_blank">Xiaomin Ouyang</a> )</p>
+                            </div>
+                        </article>
+                    </section>
+
+                </div>
+            </article>
+
+                                 <br>
+            <h3>Important Dates:</h3>
+            <ul>
+                <li><strong>Paper Registration Deadline: </strong> 22 Feb 2026, 11:59 PM AoE</li>
+                <li><strong>Paper Submission Deadline: </strong> 1 Mar 2026, 11:59 PM AoE</li>
+                <li><strong>Notification: </strong> 15 Mar 2026</li>
+                <li><strong>Camera ready: </strong> 31 Mar 2026, 11:59 PM AoE</li>
+                <li><strong>Workshop date: </strong> 11 May 2026</li>
+            </ul>
+                </br>
+
+                </div>
+                </article>
+
+        </div>
+
+
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.slidertron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.localtime-0.9.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Load header
+            $("#header-container").load("header.html", function() {
+                // Set active navigation item based on current page
+                var currentPage = window.location.pathname.split("/").pop() || "index.html";
+                if (currentPage === "" || currentPage === "2026" || currentPage === "2026/") {
+                    currentPage = "index.html";
+                }
+                $("#nav li a").each(function() {
+                    var href = $(this).attr("href").split("#")[0];
+                    if (href === currentPage) {
+                        $(this).parent().addClass("current");
+                    }
+                });
+
+                // Initialize navPanel after header is loaded
+                initNavPanel();
+            });
+            // Load banner
+            $("#banner-container").load("banner.html");
+        });
+
+        function initNavPanel() {
+            // Check if navPanel already exists
+            if ($('#navPanel').length > 0) {
+                // Update existing navPanel
+                $('#navPanel nav').html($('#nav').navList());
+                return;
+            }
+
+            // Create navPanel if nav exists
+            if ($('#nav').length > 0) {
+                var $body = $('body');
+
+                // Title Bar (if not exists)
+                if ($('#navButton').length === 0) {
+                    $('<div id="navButton"><a href="#navPanel" class="toggle"></a></div>').appendTo($body);
+                }
+
+                // Panel
+                $('<div id="navPanel"><nav>' + $('#nav').navList() + '</nav></div>')
+                    .appendTo($body)
+                    .panel({
+                        delay: 500,
+                        hideOnClick: true,
+                        hideOnSwipe: true,
+                        resetScroll: true,
+                        resetForms: true,
+                        side: 'left',
+                        target: $body,
+                        visibleClass: 'navPanel-visible'
+                    });
+            }
+        }
+    </script>
+
+    <!-- <script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.wpcc.init(
+                {
+                    "border": "thin",
+                    "corners": "small",
+                    "colors": {
+                        "popup": {
+                            "background": "#f6f6f6",
+                            "text": "#000000",
+                            "border": "#4ab7f9"
+                        },
+                        "button": {
+                            "background": "#4ab7f9",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "position": "bottom",
+                    "content": {
+                        "message": "This website uses cookies to ensure you get the best experience on our website. By continuing to use this website, you agree to their use.\n",
+                        "button": "Close and accept"
+                    }
+                }
+            )
+        });
+    </script> -->
+    <script type="text/javascript">
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 800) {
+                btn.show();
+            } else {
+                btn.hide();
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $("#overview").offset().top }, 300);
+        });
+    </script>
+</body>
+
+</html>
